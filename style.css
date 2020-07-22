@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Permanent+Marker&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Bungee Inline', cursive;
+    
+}
+
+header{
+    background-color: #A52A2A;
+    width: 100%;
+    height: 50px;
+}
+header > h3 {
+    margin-left: 10%;
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+}
+nav {
+    background-color: #B22222;
+    width: 100%;
+    height: 50px;
+}
+ul {
+    margin-left: 50%;
+
+}
+ul > li {
+    display: inline;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+  
+
+}
+a:hover {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.navegation {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  
+    grid-template-rows: 10fr 10fr 1fr;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 120px;
+    grid-gap: 25px 40px; /* Espaçamento */
+    
+}
+.navegation-1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 1px solid black;
+    background-color: #87cefa;
+    
+}
+.navegation-2 {
+    border: 1px solid black;
+    background-color:  #A52A2A;
+    color: white;
+
+}
+ .conteudo-2 {
+    padding-top: 10px;
+}
+.navegation-3 {
+    border: 1px solid black;
+    background-color:#0A2229;
+    color: white;
+  
+}
+.navegation-3 > h3 {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.navegation-3 > .conteudo-3 {
+    padding: 6px;
+
+}
+.img1{
+    width: 417px;
+    height: 400px;
+    margin: auto;
+}
+.conteudo1 {
+
+    margin-top: 10px;
+    text-align: center;
+}
+.conteudo1 > h3 { font-size: 25px;}
+.conteudo1 > p { font-weight: 20px;}
+
+.img2 {
+    width: 417px;
+    height: 300px;
+    margin-left: 0;
+}
+.img3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 0px 80px 0px;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Bungee Inline', cursive;
+   
+}
+
+.contato {
+    width: 40%;
+    height: 80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Bungee Inline', cursive;
+  
+}
+.conteudo-2 {
+    font-family: 'Bungee Inline', cursive;
+
+}
+.section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    margin-top: 150px;
+    width: 90%;
+    height: 600px;
+  
+}
+
+.section-filho-1 {
+    border: 1px solid black;
+    border-right: none;
+    border-left: 10px solid #B22222;
+   
+    border-radius: 100px 0px 0px 100px;
+   
+}
+.section-filho-2 {
+    border-right: 10px solid #B22222;
+    border: 1px solid black;
+    border-right: 10px solid #B22222;
+    border-left: none;
+    border-radius: 0px 100px 100px 0px;
+   
+}
+.section-filho-2 > h1 {
+    padding: 10px;
+    text-align: center;
+}
+.section-filho-1 > h1 {
+    padding: 10px;
+    text-align: center;
+}
+/*Formulario */
+.main-form {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+}
+.main-form > label, input {
+    display: block;
+    
+}
+.main-form > input {
+    width: 380px;
+}
+.main-form > button {
+    margin-top: 10px;
+    width: 400px;
+    background-color:#B22222;
+    color: white;
+}
