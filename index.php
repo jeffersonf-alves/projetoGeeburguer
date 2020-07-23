@@ -1,3 +1,12 @@
+<?php 
+if ($row == 1 ) {
+    $_SESSION['usuario'] = $usuario;
+    header('Location: painel.php');
+    exit();
+}
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +25,9 @@
       
         <ul>
             <li><a href="">Sobre</a></li>
-            <li><a href="">Fazer Pedido</a></li>
+            <li><a href="#login">Fazer Pedido</a></li>
             <li><a href="#main-form">Cadastrar-se</a></li>
-            <li><a href="">Login</a></li>
+            <li><a href="#login">Login</a></li>
         </ul>
     
     
@@ -62,7 +71,7 @@
     <section class="section-2" id="main-form">
         <div class="section-filho-1">
             <h1>Faça seu Cadastro</h1>
-            <form action="" method="post" class="main-form">
+            <form action="cadastro.php" method="post" class="main-form">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" placeholder="Nome">
 
@@ -91,15 +100,15 @@
 
             </form>
         </div>
-        <div class="section-filho-2">
+        <div class="section-filho-2" id="login">
         <h1>Faça Login</h1>
-            <form action="" method="post" class="main-form">
+            <form action="login.php" method="post" class="main-form">
                
                 <label for="email">E-mail</label>
-                <input type="text" id="email" placeholder="E-mail">
+                <input type="text" id="email" placeholder="E-mail" name="usuario">
 
-                <label for="senha">Senh</label>
-                <input type="password" id="senha" placeholder="senha">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="senha" name="senha">
 
 
                 <button>Fazer Login</button>

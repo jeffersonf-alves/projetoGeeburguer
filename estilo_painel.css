@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: brown;
+    width: 100%;
+    height: 120px;
+}
+nav > h4 {
+    color: white;
+}
+ul {
+    width: 480px;
+    padding-top: 60px;
+    margin-left: 60%;
+}
+ul > li {
+    display: inline;
+    padding: 10px;
+    
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    list-style-type: none;
+}
+li:hover {
+    border: 1px solid black;
+}
+/* Parte do login */
+
+div {
+    background-color: brown;
+    width: 20%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+form > input, label {
+    display: block;
+
+}
+form {
+    padding: 10px;
+}
+label {
+    padding-top: 10px;
+    color: white;
+}
+input {
+    width: 350px;
+}
+button {
+    margin: auto;
+    margin-top: 20px;
+    width: 370px;
+    background-color:  	#FA8072;
+}
+form {
+    height: 250px;
+    padding-top: 60px;
+}
+.erros {
+    height: 20px;
+    width: 250px;
+}
+.erros > p {
+    color:white;
+    text-align: center;
+}
