@@ -38,7 +38,7 @@ if ($row == 1 ) {
                 </p><img src="img/friends/friends1.jpg" alt="" class="img1" align="left">
             </div>
             <div class="conteudo1">
-                <h3>Vanha e traga seu amigo!</h3>
+                <h3>Venha e traga seu amigo!</h3>
                 <p>Se você traz um amigo e esse amigo lancha com a gente
                     você ganha desconto, válido para até 3 amigos e 10% de
                     deseonto para cada amigo que você trouxer!
